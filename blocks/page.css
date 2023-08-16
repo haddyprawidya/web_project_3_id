@@ -1,0 +1,11 @@
+.page {
+    margin: auto;
+    max-width: 1280px;
+    background-color: #2A2C2F;
+    font-family: Inter;
+}
+.page__logo {
+    display: block;
+    margin: auto;
+    padding: 34px 0 90px;
+}
