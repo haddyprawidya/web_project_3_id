@@ -1,5 +1,4 @@
 .lead {
-    width: 100%;
     margin: auto;
     text-align: center;
     color: #fff;
@@ -7,19 +6,19 @@
 }
 .lead__title {
     margin: 0 auto 32px;
-    width: 793px;
+    max-width: 793px;
     font-size: 6rem;
     font-weight: 900;
     line-height: 104.167%;
 }
 .lead__subtitle {
-    width: 720px;
+    max-width: 720px;
     font-size: 1.875rem;
     line-height: 120%;
     margin:0 auto 64px;
 }
 .lead__image {
-    width: 984px;
+    max-width: 984px;
     height: 615px;
     filter: grayscale(1);
 }
