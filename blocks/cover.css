@@ -1,0 +1,52 @@
+.cover {
+    width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+    background-image: url(../images/background-cover.jpg);
+    background-size: contain;
+}
+.cover__overley {
+    height: 100%;
+    background-color: rgba(42, 44, 47, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.cover__overley:hover {
+    background-color: rgba(42, 44, 47, .8);
+    transition: .3s ease;
+}
+.cover__title {
+    margin: 0 0 36px 0;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 105.556%;
+    width: 656px;
+    color: #FFFDFD;
+}
+.cover__subtitle {
+    width: 280px;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 122.222%;
+    margin: 0 0 32px 0;
+}
+.cover__button {
+    width: 137px;
+    height: 48px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0278FE;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.cover__button:hover {
+    background-color: #0063D2;
+}
