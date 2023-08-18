@@ -71,3 +71,6 @@
     grid-area: button;
     cursor: pointer;
 }
+.card__button:hover {
+    background-color: #0063D2;;
+}
