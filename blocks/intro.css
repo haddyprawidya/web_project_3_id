@@ -1,32 +1,57 @@
 .intro {
-    max-width: 883px;
-    color: #fff;
-    margin: 92px auto 66px 148px;
+  max-width: 883px;
+  color: #fff;
+  margin: 92px auto 66px 148px;
 }
 .intro__title {
-    margin: 0 0 40px;
-    font-size: 3.375rem;
-    font-weight: 900;
-    line-height: 107.407%;
+  margin: 0 0 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 107.407%;
 }
 .intro__quotes {
-    max-width: 758px;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 141.667%;
-    margin: 0;
+  max-width: 758px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 141.667%;
+  margin: 0;
 }
 .intro__author {
-    max-width: 720px;
-    text-align: right;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 141.667%;
-    margin: 0 0 16px;
+  max-width: 720px;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 141.667%;
+  margin: 0 0 16px;
 }
 .intro__text {
-    max-width: 720px;
-    font-weight: 400;
-    line-height: 163%;
-    margin: 0;
+  max-width: 720px;
+  font-weight: 400;
+  line-height: 163%;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .intro {
+    padding: 0 24px;
+    max-width: 100%;
+    margin: 88px auto 66px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro__quotes,
+  .intro__author,
+  .intro__text {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    margin: 64px auto;
+    padding: 0 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 109.375%;
+  }
 }
