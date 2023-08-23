@@ -58,7 +58,7 @@
 .card__paragraph:first-child {
   margin-top: 26px;
 }
-.card__button {
+.card__link {
   margin-right: auto;
   color: #fff;
   font-size: 18px;
@@ -70,8 +70,9 @@
   background: #0278fe;
   grid-area: button;
   cursor: pointer;
+  text-decoration: none;
 }
-.card__button:hover {
+.card__link:hover {
   background-color: #0063d2;
 }
 
@@ -121,9 +122,9 @@
   .card__paragraph:first-child {
     margin-top: 0;
   }
-  .card__button {
+  .card__link {
     display: block;
-    min-width: 288px;
-    margin: 0 auto;
+    width: 288px;
+    margin: auto;
   }
 }
