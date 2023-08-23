@@ -116,7 +116,7 @@
   .card__paragraph {
     box-sizing: border-box;
     padding: 0 16px;
-    min-width: 100%;
+    width: 100%;
     margin: 0 auto 16px auto;
   }
   .card__paragraph:first-child {
@@ -125,6 +125,8 @@
   .card__link {
     display: block;
     width: 288px;
+    padding: 13px 12px;
+    text-align: center;
     margin: auto;
   }
 }
